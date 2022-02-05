@@ -1,12 +1,7 @@
 @import "reseteo.scss";
 
 
-/*Variables*/
 
-$celeste: rgb(153, 217, 234);
-$azul: rgb(0, 162, 232);
-$naranja: rgb(255, 127, 39);
-$blanco: rgb(255, 255, 255);
 
 
 @import "maps_extend_mixin.scss";
@@ -126,6 +121,7 @@ $blanco: rgb(255, 255, 255);
                         
                          }
                     .cuadro_tarifario {
+                            height: 100%;
                             border-radius: 1rem;
                         }  
                    }
@@ -167,7 +163,7 @@ $blanco: rgb(255, 255, 255);
         padding: map-get($padding , padding2);
         
         .footer3 {
-            background-color: rgb(124, 0, 0);
+            background-color: rgb(196, 0, 0);
             border-radius: 0.5rem;
             padding: map-get($padding , padding05);
 
@@ -285,6 +281,7 @@ $blanco: rgb(255, 255, 255);
                         
                          }
                     .cuadro_tarifario {
+                            height: 100%;
                             border-radius: 1rem;
                         }
                    }
@@ -328,7 +325,7 @@ $blanco: rgb(255, 255, 255);
         padding: map-get($padding , padding2);
         
         .footer3 {
-            background-color: rgb(124, 0, 0);
+            background-color: rgb(196, 0, 0);
             border-radius: 0.5rem;
             padding: map-get($padding , padding05);
 
@@ -444,6 +441,7 @@ $blanco: rgb(255, 255, 255);
                         
                          }
                     .cuadro_tarifario {
+                            height: 100%;
                             border-radius: 1rem;
                         }
                    }
@@ -460,7 +458,7 @@ $blanco: rgb(255, 255, 255);
             height: 35rem;
             width: map-get($padding , width);
             background: {image: url("../assets/img/app.png");
-                size: center;}
+                size: cover;}
                 border-radius: 0.5rem;
         
             div {
@@ -486,7 +484,7 @@ $blanco: rgb(255, 255, 255);
         padding: 2rem;
         
         .footer3 {
-            background-color: rgb(124, 0, 0);
+            background-color: rgb(196, 0, 0);
             border-radius: 0.5rem;
             padding: 0.3rem;
 

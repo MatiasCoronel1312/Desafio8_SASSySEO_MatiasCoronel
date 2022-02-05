@@ -1,3 +1,10 @@
+/*Variables*/
+
+$celeste: rgb(153, 217, 234);
+$azul: rgb(0, 162, 232);
+$naranja: rgb(255, 127, 39);
+$blanco: rgb(255, 255, 255);
+
 /*map*/
 
 $mapBG : (Fondo1:$celeste, Fondo2:$azul, Fondo3:$naranja, Fondo:$blanco);
@@ -32,14 +39,14 @@ $padding : (width:100%,padding0:0,padding1:1rem,padding2:2rem,padding05:0.5rem);
 
 
  /*mixin*/
- 
+
  @mixin estiloLogo ($width, $height, $object-fit)
  {
-     width: $wight;
+     width: $width;
      height: $height;
      object-fit: $object-fit;
  }
 
  .logo {
-     @include estiloLogo(40%,100% ,contain -fit)
+     @include estiloLogo(40%,100% ,contain);
  }

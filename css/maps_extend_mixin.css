@@ -1,0 +1,36 @@
+/*Variables*/
+/*map*/
+/*maps_get*/
+/*each*/
+.Fondo1 {
+  background-color: #99d9ea;
+}
+
+.Fondo2 {
+  background-color: #00a2e8;
+}
+
+.Fondo3 {
+  background-color: #ff7f27;
+}
+
+.Fondo {
+  background-color: white;
+}
+
+/*extend*/
+.estilo1, .estilo2 {
+  border-radius: 0.5rem;
+}
+
+.estilo2 {
+  font-size: 1rem;
+}
+
+/*mixin*/
+.logo {
+  width: 40%;
+  height: 100%;
+  object-fit: contain;
+}
+/*# sourceMappingURL=maps_extend_mixin.css.map */
