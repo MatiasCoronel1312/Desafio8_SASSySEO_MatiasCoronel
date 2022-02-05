@@ -1,1 +1,12 @@
-/* No CSS *//*# sourceMappingURL=estilo.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+aside div {
+  background-image: url("../assets/img/app.png");
+}
+/*# sourceMappingURL=estilo.css.map */

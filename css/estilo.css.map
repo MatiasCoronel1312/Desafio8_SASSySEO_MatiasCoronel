@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA,AAAA,CAAC,CAAC;EACE,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,IAAI;EAChB,eAAe,EAAE,IAAI;EACrB,UAAU,EAAE,UAAU;CACzB;;ADJD,AACI,KADC,CACD,GAAG,CAAC;EACJ,gBAAgB,EAAE,4BAA4B;CAAE",
     "sources": [
-        "../estilo.sass"
+        "../estilo.scss",
+        "../reseteo.scss"
     ],
     "names": [],
     "file": "estilo.css"
