@@ -1,0 +1,19 @@
+{
+  "name": "desafio8_sassyseo_matiascoronel",
+  "version": "1.0.0",
+  "description": "Proyecto aplicando SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatiasCoronel1312/Desafio8_SASSySEO_MatiasCoronel.git"
+  },
+  "author": "Matias Coronel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatiasCoronel1312/Desafio8_SASSySEO_MatiasCoronel/issues"
+  },
+  "homepage": "https://github.com/MatiasCoronel1312/Desafio8_SASSySEO_MatiasCoronel#readme"
+}

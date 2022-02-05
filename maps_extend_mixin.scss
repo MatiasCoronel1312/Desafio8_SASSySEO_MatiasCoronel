@@ -1,0 +1,45 @@
+/*map*/
+
+$mapBG : (Fondo1:$celeste, Fondo2:$azul, Fondo3:$naranja, Fondo:$blanco);
+
+
+/*maps_get*/
+
+$padding : (width:100%,padding0:0,padding1:1rem,padding2:2rem,padding05:0.5rem);
+
+
+/*each*/
+
+@each $celeste, $color in $mapBG {
+    .#{$celeste} {
+        background-color: $color;
+    }
+ }
+
+
+ /*extend*/
+
+ .estilo1 {
+    border-radius: 0.5rem;
+
+ }
+
+ .estilo2 {
+    @extend .estilo1;
+    font-size: 1rem;
+
+ }
+
+
+ /*mixin*/
+ 
+ @mixin estiloLogo ($width, $height, $object-fit)
+ {
+     width: $wight;
+     height: $height;
+     object-fit: $object-fit;
+ }
+
+ .logo {
+     @include estiloLogo(40%,100% ,contain -fit)
+ }

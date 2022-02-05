@@ -6,6 +6,34 @@
   box-sizing: border-box;
 }
 
+/*Variables*/
+/*map*/
+/*each*/
+.Fondo1 {
+  background-color: #99d9ea;
+}
+
+.Fondo2 {
+  background-color: #00a2e8;
+}
+
+.Fondo3 {
+  background-color: #ff7f27;
+}
+
+.Fondo {
+  background-color: white;
+}
+
+/*extend*/
+.estilo1, .estilo2 {
+  border-radius: 0.5rem;
+}
+
+.estilo2 {
+  font-size: 1rem;
+}
+
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -34,7 +62,6 @@
     /* Safari */
     position: sticky;
     top: 0;
-    background-color: #00a2e8;
     font-size: 1.3rem;
     font-weight: bold;
   }
@@ -56,7 +83,7 @@
   #nav a:hover {
     color: #ff7f27;
     background-color: black;
-    padding: 0.3rem;
+    padding: 0.5rem;
   }
   #nav .button_nav {
     width: 100%;
@@ -74,26 +101,25 @@
     padding: 0;
   }
   main .main__section .main__promo {
-    background: #99d9ea;
-    padding: 1.3rem;
+    padding: 1rem;
     border-radius: 0.3rem;
   }
   main .main__section .main__tarifas {
     width: 100%;
-    padding: 0rem;
+    padding: 0;
     font-weight: bolder;
   }
   main .main__section .main__tarifas p {
     padding: 5rem 1.5rem;
     font-size: 0.9rem;
   }
+  main .main__section .main__tarifas .cuadro_tarifario {
+    border-radius: 1rem;
+  }
   main .main__section .main__social {
     width: 100%;
-    background: #00a2e8;
     font-weight: bold;
     padding: 2rem;
-    font-size: 1rem;
-    border-radius: 0.5rem;
   }
   main aside {
     width: 100%;
@@ -102,7 +128,7 @@
     border-radius: 0.5rem;
   }
   main aside div {
-    padding: 1rem;
+    padding: 2rem;
     text-align: left;
     font-size: 1rem;
     font-weight: bold;
@@ -119,7 +145,7 @@
   .footer .footer3 {
     background-color: #7c0000;
     border-radius: 0.5rem;
-    padding: 0.3rem;
+    padding: 0.5rem;
   }
 }
 
@@ -131,7 +157,7 @@
     height: 10rem;
   }
   header h1 {
-    padding: 1.3rem;
+    padding: 1rem;
     width: 55%;
     text-transform: uppercase;
     font-size: 3.5rem;
@@ -147,12 +173,11 @@
     /* Safari */
     position: sticky;
     top: 0;
-    background-color: #00a2e8;
     font-size: 1.5rem;
     font-weight: bold;
   }
   #nav ul {
-    padding: 0.2rem;
+    padding: 0.5rem;
     text-align: center;
   }
   #nav li {
@@ -187,8 +212,7 @@
     padding: 0;
   }
   main .main__section .main__promo {
-    background: #99d9ea;
-    padding: 1.3rem;
+    padding: 1rem;
     border-radius: 0.3rem;
   }
   main .main__section .main__tarifas {
@@ -200,13 +224,13 @@
     padding: 5rem 2rem;
     font-size: 1.2rem;
   }
+  main .main__section .main__tarifas .cuadro_tarifario {
+    border-radius: 1rem;
+  }
   main .main__section .main__social {
     width: 100%;
-    background: #00a2e8;
     font-weight: bold;
     padding: 2rem;
-    font-size: 1rem;
-    border-radius: 0.5rem;
   }
   main aside {
     height: 15rem;
@@ -233,7 +257,7 @@
   .footer .footer3 {
     background-color: #7c0000;
     border-radius: 0.5rem;
-    padding: 0.3rem;
+    padding: 0.5rem;
   }
 }
 
@@ -261,8 +285,7 @@
     /* Safari */
     position: sticky;
     top: 0;
-    background-color: #00a2e8;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
   }
   #nav ul {
@@ -301,7 +324,6 @@
     padding: 0;
   }
   main .main__section .main__promo {
-    background: #99d9ea;
     padding: 1.3rem;
     border-radius: 0.3rem;
   }
@@ -314,13 +336,13 @@
     padding: 5rem 2rem;
     font-size: 1.2rem;
   }
+  main .main__section .main__tarifas .cuadro_tarifario {
+    border-radius: 1rem;
+  }
   main .main__section .main__social {
     width: 100%;
-    background: #00a2e8;
     font-weight: bold;
     padding: 2rem;
-    font-size: 1rem;
-    border-radius: 0.5rem;
   }
   main aside {
     height: 35rem;
