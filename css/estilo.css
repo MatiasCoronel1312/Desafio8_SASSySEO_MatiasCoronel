@@ -6,7 +6,348 @@
   box-sizing: border-box;
 }
 
-aside div {
-  background-image: url("../assets/img/app.png");
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*---------------version mobile---------------*/
+@media (max-width: 768px) {
+  header {
+    display: flex;
+    width: 100%;
+    height: 10rem;
+  }
+  header h1 {
+    padding: 3rem 1.3rem;
+    width: 55%;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  header img {
+    width: 40%;
+    height: 100%;
+    object-fit: contain;
+  }
+  #nav {
+    width: 100%;
+    /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: #00a2e8;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  #nav ul {
+    padding: 0.5rem;
+    text-align: center;
+  }
+  #nav li {
+    display: inline-block;
+    padding: 0.5rem;
+  }
+  #nav a {
+    color: black;
+    transition: all 150ms ease-in-out;
+    border-radius: 0.3rem;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  #nav a:hover {
+    color: #ff7f27;
+    background-color: black;
+    padding: 0.3rem;
+  }
+  #nav .button_nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #nav .button {
+    width: 90%;
+  }
+  main {
+    width: 100%;
+  }
+  main .main__section {
+    width: 100%;
+    padding: 0;
+  }
+  main .main__section .main__promo {
+    background: #99d9ea;
+    padding: 1.3rem;
+    border-radius: 0.3rem;
+  }
+  main .main__section .main__tarifas {
+    width: 100%;
+    padding: 0rem;
+    font-weight: bolder;
+  }
+  main .main__section .main__tarifas p {
+    padding: 5rem 1.5rem;
+    font-size: 0.9rem;
+  }
+  main .main__section .main__social {
+    width: 100%;
+    background: #00a2e8;
+    font-weight: bold;
+    padding: 2rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+  }
+  main aside {
+    width: 100%;
+    background-image: url("../assets/img/app.png");
+    background-size: cover;
+    border-radius: 0.5rem;
+  }
+  main aside div {
+    padding: 1rem;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  main aside div p {
+    width: 35%;
+  }
+  .footer {
+    width: 100%;
+    color: #837f7c;
+    background-color: black;
+    padding: 2rem;
+  }
+  .footer .footer3 {
+    background-color: #7c0000;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+  }
+}
+
+/*---------------version tablet---------------*/
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  header {
+    display: flex;
+    width: 100%;
+    height: 10rem;
+  }
+  header h1 {
+    padding: 1.3rem;
+    width: 55%;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+  header img {
+    width: 45%;
+    height: 100%;
+    object-fit: contain;
+  }
+  #nav {
+    width: 100%;
+    /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: #00a2e8;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  #nav ul {
+    padding: 0.2rem;
+    text-align: center;
+  }
+  #nav li {
+    display: inline-block;
+    padding: 0.5rem;
+  }
+  #nav a {
+    color: black;
+    transition: all 150ms ease-in-out;
+    border-radius: 0.3rem;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  #nav a:hover {
+    color: #ff7f27;
+    background-color: black;
+    padding: 0.8rem 0.3rem;
+  }
+  #nav .button_nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #nav .button {
+    width: 90%;
+  }
+  main {
+    width: 100%;
+  }
+  main .main__section {
+    width: 100%;
+    padding: 0;
+  }
+  main .main__section .main__promo {
+    background: #99d9ea;
+    padding: 1.3rem;
+    border-radius: 0.3rem;
+  }
+  main .main__section .main__tarifas {
+    width: 100%;
+    padding: 0.2rem;
+    font-weight: bolder;
+  }
+  main .main__section .main__tarifas p {
+    padding: 5rem 2rem;
+    font-size: 1.2rem;
+  }
+  main .main__section .main__social {
+    width: 100%;
+    background: #00a2e8;
+    font-weight: bold;
+    padding: 2rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+  }
+  main aside {
+    height: 15rem;
+    width: 100%;
+    background-image: url("../assets/img/app.png");
+    background-size: cover;
+    border-radius: 0.5rem;
+  }
+  main aside div {
+    padding: 1rem;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  main aside div p {
+    width: 35%;
+  }
+  .footer {
+    width: 100%;
+    color: #837f7c;
+    background-color: black;
+    padding: 2rem;
+  }
+  .footer .footer3 {
+    background-color: #7c0000;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+  }
+}
+
+/*----------------------------- VISTA ESCRITORIO ---------------------------*/
+@media only screen and (min-width: 992px) {
+  header {
+    display: flex;
+    width: 100%;
+    height: 10rem;
+  }
+  header h1 {
+    padding: 1.3rem;
+    width: 55%;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: bold;
+  }
+  header img {
+    width: 45%;
+    height: 100%;
+    object-fit: contain;
+  }
+  #nav {
+    width: 100%;
+    /* Safari */
+    position: sticky;
+    top: 0;
+    background-color: #00a2e8;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  #nav ul {
+    padding: 0.2rem;
+    text-align: center;
+  }
+  #nav li {
+    display: inline-block;
+    padding: 0.5rem;
+  }
+  #nav a {
+    color: black;
+    transition: all 150ms ease-in-out;
+    border-radius: 0.3rem;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  #nav a:hover {
+    color: #ff7f27;
+    background-color: black;
+    padding: 0.5rem 0.3rem;
+  }
+  #nav .button_nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #nav .button {
+    width: 90%;
+  }
+  main {
+    width: 100%;
+  }
+  main .main__section {
+    width: 100%;
+    padding: 0;
+  }
+  main .main__section .main__promo {
+    background: #99d9ea;
+    padding: 1.3rem;
+    border-radius: 0.3rem;
+  }
+  main .main__section .main__tarifas {
+    width: 100%;
+    padding: 0.2rem;
+    font-weight: bolder;
+  }
+  main .main__section .main__tarifas p {
+    padding: 5rem 2rem;
+    font-size: 1.2rem;
+  }
+  main .main__section .main__social {
+    width: 100%;
+    background: #00a2e8;
+    font-weight: bold;
+    padding: 2rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+  }
+  main aside {
+    height: 35rem;
+    width: 100%;
+    background-image: url("../assets/img/app.png");
+    background-size: center;
+    border-radius: 0.5rem;
+  }
+  main aside div {
+    padding: 1rem;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  main aside div p {
+    width: 35%;
+  }
+  .footer {
+    width: 100%;
+    color: #837f7c;
+    background-color: black;
+    padding: 2rem;
+  }
+  .footer .footer3 {
+    background-color: #7c0000;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+  }
 }
 /*# sourceMappingURL=estilo.css.map */
